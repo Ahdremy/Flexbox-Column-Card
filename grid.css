@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');  
+ 
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #f5f0f0;
+    display: flex;
+    place-items: center;
+    min-height: 100vh;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+}
+.box-container{
+    display: grid;
+    grid-template-areas: 
+    'a b c';
+    gap: 1px;
+    width: 50%;
+    margin:auto;
+    max-width: 1440px;  
+}
+.content{  
+    padding: 10px;  
+}  
+h1{
+    color: hsl(0,0%,95%);  
+    text-transform: uppercase;  
+    margin: 20px 0;  
+    font-family: 'Big Shoulders Display', cursive;
+}
+.box-box1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #e28525;
+    grid-area: a;
+    border-top-left-radius: 10px;  
+    border-bottom-left-radius: 10px;
+}
+.box-box2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #016972;
+    grid-area: b;
+    border-top-left-radius: 10px;  
+    border-bottom-left-radius: 10px;
+}
+.box-box3{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    grid-area: c;
+    background-color: #00403f;
+    border-top-left-radius: 10px;  
+    border-bottom-left-radius: 10px;
+}
+.box-container button{
+    align-items: flex-end;
+    margin: 60px 0;  
+    padding: 15px 40px;  
+    border: 0;  
+    border-radius: 30px;  
+    outline: none;  
+    background-color: #FFF;  
+    font-size: 15px;  
+    cursor: pointer;  
+    font-family: 'Lexend Deca', sans-serif;  
+    font-weight: 700;  
+}
+.box-container p{
+    padding: 10px;
+    align-items: center;
+    color: hsla(0,0%,100%,0.75);  
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.btn1{  
+    color: hsl(31, 77%, 52%);  
+}  
+.btn2{  
+    color: hsl(184, 100%, 22%);  
+}  
+.btn3{  
+    color: hsl(179, 100%, 13%);  
+}  
+.btn:hover{  
+    background-color: transparent;  
+    border: 2px solid #FFF;  
+    color: #FFF;  
+    transition: 0.4s;  
+}  
